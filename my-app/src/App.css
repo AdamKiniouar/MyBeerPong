@@ -1,38 +1,114 @@
-.App {
+.header-color{
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.home-grid{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  position: flex;
+  margin: auto;
+  width: 100%;
+  height: 100%;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-top: 2em;
+}
+
+h3 {
   color: white;
+  }
+
+.footer{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.App-link {
-  color: #61dafb;
+.headerTex{
+  font-size: 66px;
+  font-weight: bold;
+  color: white; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a.mdl-navigation__link:hover{
+  background: rgba(255, 255, 255, 0.26);
+}
+
+div.mdl-layout__header-row{
+  position:fixed;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+div.mdl-layout__drawer-button{
+  position:fixed;
+}
+
+div.mdl-mini-footer__left-section{
+  display: table;
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mdl-layout__content{
+  background: #000000;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+ }
+ .movieContents{
+   width: '100vw';
+   height:'100vh' ;
+   margin: 'auto';
+ }
+ 
+ .movieContentTable{
+   padding-left: 20vw;
+   padding-bottom: 2vh;
+   padding-top: 5vh;
+   
+ }
+ 
+ .movieContentTitle{
+ color: white;
+ font-size: 5vh;
+ padding-bottom: 1vh;
+ 
+ }
+ 
+ .movieContentDescription{
+   color: white;
+   font-size: 2.5vh;
+   padding-top: 1vh;
+ }
+
+ .bookContentTable{
+
+  padding-top: 5vh;
+ }
+
+ .btnColor{
+   display: inline-block;
+   border: none;
+   padding: 6px 12px;
+   margin-bottom: 0;
+   font-size: 14px;
+   font-weight: normal;
+   text-align: center;
+   cursor: pointer;
+   border-radius: 4px;
+
+   color: white;
+   background-color: red;
+ }
+ 
+ .movieTimeAndDate{
+  color: white;
+  font-size: 2vh;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
 }
