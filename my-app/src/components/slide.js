@@ -18,7 +18,7 @@ const Slideshow = () => {
                     <div>
                         <li>
                         <a href="./boka">
-                        <img src="https://www.belushis.com/__data/assets/image/0009/497277/20294349_1501730849865693_7094991970182993401_n.jpg"/>
+                        <img src="Beer pong bord.jpg"/>
                         </a>
                         </li>
                     </div>
@@ -27,7 +27,7 @@ const Slideshow = () => {
                     <div>
                     <li>
                     <a href="./boka">
-                        <img src="https://www.belushis.com/__data/assets/image/0009/497277/20294349_1501730849865693_7094991970182993401_n.jpg"/>
+                        <img src="images.jpg"/>
                         </a>
                      </li>
                     </div>
@@ -36,7 +36,7 @@ const Slideshow = () => {
                     <div>
                     <li>
                         <a href="./boka">
-                        <img src="https://www.belushis.com/__data/assets/image/0009/497277/20294349_1501730849865693_7094991970182993401_n.jpg"/>
+                        <img src="ladda ned.jpg"/>
                         </a>
                      </li>
                     </div>

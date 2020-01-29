@@ -4,8 +4,6 @@ import { Layout, Header, Navigation, Drawer,Footer,FooterSection,FooterLinkList,
 import Main from './components/main';
 import { Link } from 'react-router-dom';
 
-//https:api.themoviedb.org/3/movie/76341?api_key=334afa804965b7ed56ac1af164c1f215
-
 class App extends Component {
   render(){
     return (
